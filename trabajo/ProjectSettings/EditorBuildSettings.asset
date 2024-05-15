@@ -12,18 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Juego.unity
     guid: d416b9874f2ff9740aa101a0ffb11dc7
   - enabled: 1
-    path: Assets/Scenes/Multijugador.unity
-    guid: 0e8eb034cb448af4e814c8af222c5963
-  - enabled: 1
     path: Assets/Scenes/Menu2.unity
     guid: 9709ba14edc277f4eaba0fc6eee078e6
+  - enabled: 1
+    path: Assets/Scenes/SelectorEquipos.unity
+    guid: 89bf999ca2a76ce4887b458aee91b810
+  - enabled: 1
+    path: Assets/Scenes/Multijugador.unity
+    guid: bb860f43df4436f459399c1d308d9655
   - enabled: 1
     path: Assets/Scenes/Local.unity
     guid: 0362083906aec3b40ae78dbd50f4d6cd
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: d7b87fcfa566e154683e38b588af90fa
-  - enabled: 1
-    path: Assets/Scenes/SelectorEquipos.unity
-    guid: 89bf999ca2a76ce4887b458aee91b810
   m_configObjects: {}

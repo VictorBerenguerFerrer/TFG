@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - PlayerController7
     - Porteria
     - SkinsController
+    - TuClase
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -126,41 +127,11 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
   - assembly: Assembly-CSharp
-    fullTypeName: MarcadorDeGoles
-    methodName: pausa
-  - assembly: Assembly-CSharp
-    fullTypeName: MarcadorDeGoles
-    methodName: MenuPrincipal
-  - assembly: Assembly-CSharp
-    fullTypeName: MarcadorDeGoles
-    methodName: reanudar
-  - assembly: Assembly-CSharp
-    fullTypeName: MarcadorDeGoles
-    methodName: reiniciar
-  - assembly: Assembly-CSharp
     fullTypeName: BOTONES
     methodName: Multijugador
   - assembly: Assembly-CSharp
     fullTypeName: BOTONES
     methodName: Local
-  - assembly: Assembly-CSharp
-    fullTypeName: MarcadorDeGoles
-    methodName: pausa
-  - assembly: Assembly-CSharp
-    fullTypeName: MarcadorDeGoles
-    methodName: MenuPrincipal
-  - assembly: Assembly-CSharp
-    fullTypeName: MarcadorDeGoles
-    methodName: reanudar
-  - assembly: Assembly-CSharp
-    fullTypeName: MarcadorDeGoles
-    methodName: reiniciar
-  - assembly: Assembly-CSharp
-    fullTypeName: BOTONES
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: BOTONES
-    methodName: CerrarJuego
   - assembly: Assembly-CSharp
     fullTypeName: SkinsController
     methodName: NextOption2
@@ -188,6 +159,39 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: MarcadorDeGoles
+    methodName: pausa
+  - assembly: Assembly-CSharp
+    fullTypeName: MarcadorDeGoles
+    methodName: MenuPrincipal
+  - assembly: Assembly-CSharp
+    fullTypeName: MarcadorDeGoles
+    methodName: reanudar
+  - assembly: Assembly-CSharp
+    fullTypeName: MarcadorDeGoles
+    methodName: reiniciar
+  - assembly: Assembly-CSharp
+    fullTypeName: MarcadorDeGoles
+    methodName: pausa
+  - assembly: Assembly-CSharp
+    fullTypeName: MarcadorDeGoles
+    methodName: MenuPrincipal
+  - assembly: Assembly-CSharp
+    fullTypeName: MarcadorDeGoles
+    methodName: reanudar
+  - assembly: Assembly-CSharp
+    fullTypeName: MarcadorDeGoles
+    methodName: reiniciar
+  - assembly: Assembly-CSharp
+    fullTypeName: BOTONES
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: Ganador
+    methodName: Reiniciar
+  - assembly: Assembly-CSharp
+    fullTypeName: BOTONES
+    methodName: CerrarJuego
   sceneClasses:
     Assets/Scenes/GameOver.unity:
     - Class: 1
@@ -213,25 +217,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16710}
     - Class: 114
-      Script: {instanceID: 17988}
+      Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 18250}
+      Script: {instanceID: 18252}
     - Class: 114
-      Script: {instanceID: 18304}
+      Script: {instanceID: 18306}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 21132}
+      Script: {instanceID: 21134}
     - Class: 114
-      Script: {instanceID: 21466}
+      Script: {instanceID: 21468}
     - Class: 114
-      Script: {instanceID: 21840}
+      Script: {instanceID: 21842}
     - Class: 114
-      Script: {instanceID: 22054}
+      Script: {instanceID: 22056}
     - Class: 114
-      Script: {instanceID: 22460}
+      Script: {instanceID: 22462}
     - Class: 114
-      Script: {instanceID: 24686}
+      Script: {instanceID: 24688}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -278,39 +282,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16710}
     - Class: 114
-      Script: {instanceID: 17504}
+      Script: {instanceID: 17506}
     - Class: 114
-      Script: {instanceID: 17884}
+      Script: {instanceID: 17886}
     - Class: 114
-      Script: {instanceID: 17988}
+      Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 18250}
+      Script: {instanceID: 18252}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 18810}
+      Script: {instanceID: 18812}
     - Class: 114
-      Script: {instanceID: 18998}
+      Script: {instanceID: 19000}
     - Class: 114
-      Script: {instanceID: 19288}
+      Script: {instanceID: 19290}
     - Class: 114
-      Script: {instanceID: 19376}
+      Script: {instanceID: 19378}
     - Class: 114
-      Script: {instanceID: 20220}
+      Script: {instanceID: 20222}
     - Class: 114
-      Script: {instanceID: 21278}
+      Script: {instanceID: 21280}
     - Class: 114
-      Script: {instanceID: 21466}
+      Script: {instanceID: 21468}
     - Class: 114
-      Script: {instanceID: 21482}
+      Script: {instanceID: 21484}
     - Class: 114
-      Script: {instanceID: 21576}
+      Script: {instanceID: 21578}
     - Class: 114
-      Script: {instanceID: 21840}
+      Script: {instanceID: 21842}
     - Class: 114
-      Script: {instanceID: 22460}
+      Script: {instanceID: 22462}
     - Class: 114
-      Script: {instanceID: 23820}
+      Script: {instanceID: 23822}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -355,29 +359,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16710}
     - Class: 114
-      Script: {instanceID: 17436}
+      Script: {instanceID: 17438}
     - Class: 114
-      Script: {instanceID: 17988}
+      Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 18250}
+      Script: {instanceID: 18252}
     - Class: 114
-      Script: {instanceID: 18304}
+      Script: {instanceID: 18306}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 19884}
+      Script: {instanceID: 19886}
     - Class: 114
-      Script: {instanceID: 20208}
+      Script: {instanceID: 20210}
     - Class: 114
-      Script: {instanceID: 21132}
+      Script: {instanceID: 21134}
     - Class: 114
-      Script: {instanceID: 21840}
+      Script: {instanceID: 21468}
     - Class: 114
-      Script: {instanceID: 22054}
+      Script: {instanceID: 21842}
     - Class: 114
-      Script: {instanceID: 22460}
+      Script: {instanceID: 22056}
     - Class: 114
-      Script: {instanceID: 23578}
+      Script: {instanceID: 22462}
+    - Class: 114
+      Script: {instanceID: 23580}
+    - Class: 114
+      Script: {instanceID: 25364}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -418,21 +426,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16710}
     - Class: 114
-      Script: {instanceID: 17988}
+      Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 18250}
+      Script: {instanceID: 18252}
     - Class: 114
-      Script: {instanceID: 18304}
+      Script: {instanceID: 18306}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 21132}
+      Script: {instanceID: 21134}
     - Class: 114
-      Script: {instanceID: 21840}
+      Script: {instanceID: 21842}
     - Class: 114
-      Script: {instanceID: 22054}
+      Script: {instanceID: 22056}
     - Class: 114
-      Script: {instanceID: 22460}
+      Script: {instanceID: 22462}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -479,45 +487,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16710}
     - Class: 114
-      Script: {instanceID: 17504}
+      Script: {instanceID: 17506}
     - Class: 114
-      Script: {instanceID: 17884}
+      Script: {instanceID: 17886}
     - Class: 114
-      Script: {instanceID: 17988}
+      Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 18250}
+      Script: {instanceID: 18252}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 18810}
+      Script: {instanceID: 18812}
     - Class: 114
-      Script: {instanceID: 18998}
+      Script: {instanceID: 19000}
     - Class: 114
-      Script: {instanceID: 19120}
+      Script: {instanceID: 19122}
     - Class: 114
-      Script: {instanceID: 19288}
+      Script: {instanceID: 19290}
     - Class: 114
-      Script: {instanceID: 19376}
+      Script: {instanceID: 19378}
     - Class: 114
-      Script: {instanceID: 19964}
+      Script: {instanceID: 19966}
     - Class: 114
-      Script: {instanceID: 20128}
+      Script: {instanceID: 20130}
     - Class: 114
-      Script: {instanceID: 20220}
+      Script: {instanceID: 20222}
     - Class: 114
-      Script: {instanceID: 20574}
+      Script: {instanceID: 20576}
     - Class: 114
-      Script: {instanceID: 21188}
+      Script: {instanceID: 21190}
     - Class: 114
-      Script: {instanceID: 21466}
+      Script: {instanceID: 21468}
     - Class: 114
-      Script: {instanceID: 21482}
+      Script: {instanceID: 21484}
     - Class: 114
-      Script: {instanceID: 21840}
+      Script: {instanceID: 21842}
     - Class: 114
-      Script: {instanceID: 22460}
+      Script: {instanceID: 22462}
     - Class: 114
-      Script: {instanceID: 23820}
+      Script: {instanceID: 23822}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -560,21 +568,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16710}
     - Class: 114
-      Script: {instanceID: 17988}
+      Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 18250}
+      Script: {instanceID: 18252}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 21132}
+      Script: {instanceID: 21134}
     - Class: 114
-      Script: {instanceID: 21840}
+      Script: {instanceID: 21842}
     - Class: 114
-      Script: {instanceID: 22054}
+      Script: {instanceID: 22056}
     - Class: 114
-      Script: {instanceID: 22460}
+      Script: {instanceID: 22462}
     - Class: 114
-      Script: {instanceID: 24162}
+      Script: {instanceID: 24164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -650,6 +658,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: ba5dec8b58f70a7abac3141ceafe2e71
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ControladorDatos
+  - hash:
+      serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -686,7 +700,7 @@ ScriptsOnlyBuild:
     className: SpriteShapeDefaultCreator
   - hash:
       serializedVersion: 2
-      Hash: 2b2361ccf8ad0b980ed61834034e7259
+      Hash: 71778b0921d7de68221bbf7d7c5887ed
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1704,12 +1718,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e16223e76d4e7ac70465394e6fdafd5d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TuClase
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
-  - Assets/Scenes/Multijugador.unity
   - Assets/Scenes/Menu2.unity
+  - Assets/Scenes/SelectorEquipos.unity
+  - Assets/Scenes/Multijugador.unity
   - Assets/Scenes/Local.unity
   - Assets/Scenes/GameOver.unity
-  - Assets/Scenes/SelectorEquipos.unity
   playerPath: C:/Users/laura/OneDrive/Escritorio/test/test.apk

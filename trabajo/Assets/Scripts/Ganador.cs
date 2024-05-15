@@ -11,28 +11,20 @@ public class Ganador : MonoBehaviour
     
     void Start()
     {
-        if(BOTONES.modoJuego == true){
-            
-            
-           
-         }else{
-            
-             
-         }
-        
-
-
         string ganador = PlayerPrefs.GetString("MensajeFinDeJuego");
         // Mostrar el mensaje en el Texto
         mensaje.text = ganador;
        
     }
+    public void Reiniciar(){
+        SceneManager.LoadScene("Menu");
+        
+
+    }
+    
 
     // Update is called once per frame
-    void Update()
-    {
-       
-    }
+
 
 
 }

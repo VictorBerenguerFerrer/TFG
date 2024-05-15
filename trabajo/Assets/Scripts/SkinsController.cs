@@ -76,7 +76,8 @@ public class SkinsController : MonoBehaviour
 
     public void PlayGame()
     {
-         //PrefabUtility.SaveAsPrefabAsset(playerskin,"Assets/equipoSeleccionado.prefab");
+        PlayerPrefs.SetInt("equipoSeleccionado", selectedCharacter);
+        PlayerPrefs.SetInt("equipoSeleccionado2", selectedCharacter2);
          //PrefabUtility.SaveAsPrefabAsset(playerskin2,"Assets/equipoSeleccionado2.prefab");
 
          if(BOTONES.modoJuego == true){

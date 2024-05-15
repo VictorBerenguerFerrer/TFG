@@ -1,9 +1,12 @@
-using System;
-using TMPro;
-using Unity.VisualScripting;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.IO;
+using System;
+
+// Clase para representar la puntuación del partido
+
 
 public class MarcadorDeGoles : MonoBehaviour
 {
@@ -14,9 +17,7 @@ public class MarcadorDeGoles : MonoBehaviour
     public int marcadorEquipoB;
 
     [SerializeField] private GameObject botonPausa;
-
     [SerializeField] private GameObject menuPausa;
-    
 
     void Start()
     {
@@ -32,28 +33,45 @@ public class MarcadorDeGoles : MonoBehaviour
          
         // Actualizar los textos de los marcadores
         ActualizarMarcadores();
-       
     }
 
-    private void Update(){
-         if (marcadorEquipoA == 3 || marcadorEquipoB == 3)
+    private void Update()
+    {
+        if (marcadorEquipoA == 3 || marcadorEquipoB == 3)
         {
             // Si se cumple, muestra el mensaje del ganador
-            String mensaje ;
+            string mensaje;
             if (marcadorEquipoA > marcadorEquipoB)
             {
-               mensaje = "El ganador es el Equipo Rojo.";
+               mensaje = "El ganador es el Equipo Rojo, con un resultado de " + marcadorEquipoB + " a " + marcadorEquipoA;
+               guardarPuntuacion(mensaje);
             }
             else
             {
-               mensaje = "El ganador es el Equipo Azul.";
+               mensaje = "El ganador es el Equipo Azul, con un resultado de " + marcadorEquipoA + " a " + marcadorEquipoB;
+               guardarPuntuacion(mensaje);
             }
             
             // Reinicia los marcadores y vuelve a cargar la escena
-             PlayerPrefs.SetString("MensajeFinDeJuego", mensaje);
-             SceneManager.LoadScene("GameOver");
+            PlayerPrefs.SetString("MensajeFinDeJuego", mensaje);
+            SceneManager.LoadScene("GameOver");
             ReiniciarMarcadores();
         }
+    }
+
+    // Método para guardar el resultado del partido en un archivo JSON
+    private void guardarPuntuacion(string mensaje)
+    {
+
+
+  string filePath = "Assets/data.txt";
+
+    // Agregar una nueva línea al final para separar los mensajes
+    string line = "{\"partido\": \"" + mensaje + "\"}" + Environment.NewLine;
+
+    // Escribir el mensaje al final del archivo
+    File.AppendAllText(filePath, line);
+       
     }
 
     // Método para incrementar el marcador del Equipo A
@@ -102,32 +120,32 @@ public class MarcadorDeGoles : MonoBehaviour
         GuardarMarcadores();
     }
 
-
-    public void pausa(){
-
+    public void pausa()
+    {
         Time.timeScale = 0;
         botonPausa.SetActive(false);
         menuPausa.SetActive(true);
-
     }
 
-    public void reanudar(){
+    public void reanudar()
+    {
         Time.timeScale = 1f;
         botonPausa.SetActive(true);
         menuPausa.SetActive(false);
     }
 
-    public void reiniciar(){
+    public void reiniciar()
+    {
         Time.timeScale = 1f;
         ReiniciarMarcadores();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void MenuPrincipal(){
+    public void MenuPrincipal()
+    {
         Time.timeScale = 1f;
         ReiniciarMarcadores();
         SceneManager.LoadScene("Menu");
         MusicManager.instance.PlayMusic();
     }
-
 }
