@@ -1961,6 +1961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2132300464}
   - component: {fileID: 2132300463}
+  - component: {fileID: 2132300465}
   m_Layer: 0
   m_Name: PanelPartidos
   m_TagString: Untagged
@@ -1996,6 +1997,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2132300465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132300462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3eaace6704d3b49b5b872074094bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  archivoTexto: {fileID: 4900000, guid: 9678f0dc83e299541a2ff8d5758248d1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -29,7 +29,7 @@ public class PlayerController6 : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null && (hit.collider.CompareTag("jugador6")))
+            if (hit.collider != null && (hit.collider.CompareTag("jugador7")))
             {
                 isDragging = true;
                 dragStartPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

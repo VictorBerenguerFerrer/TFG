@@ -503,7 +503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4638898931087935318, guid: 9d0a22890cd2aaa479ca3a6af34646fd, type: 3}
       propertyPath: m_TagString
-      value: jugador7
+      value: jugador8
       objectReference: {fileID: 0}
     - target: {fileID: 6119314615290791952, guid: 9d0a22890cd2aaa479ca3a6af34646fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -745,7 +745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4638898931087935318, guid: 9d0a22890cd2aaa479ca3a6af34646fd, type: 3}
       propertyPath: m_TagString
-      value: jugador5
+      value: jugador6
       objectReference: {fileID: 0}
     - target: {fileID: 6119314615290791952, guid: 9d0a22890cd2aaa479ca3a6af34646fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -983,7 +983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4638898931087935318, guid: 9d0a22890cd2aaa479ca3a6af34646fd, type: 3}
       propertyPath: m_TagString
-      value: jugador6
+      value: jugador7
       objectReference: {fileID: 0}
     - target: {fileID: 6119314615290791952, guid: 9d0a22890cd2aaa479ca3a6af34646fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3049,7 +3049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4638898931087935318, guid: 9d0a22890cd2aaa479ca3a6af34646fd, type: 3}
       propertyPath: m_TagString
-      value: jugador4
+      value: jugador5
       objectReference: {fileID: 0}
     - target: {fileID: 6119314615290791952, guid: 9d0a22890cd2aaa479ca3a6af34646fd, type: 3}
       propertyPath: m_LocalPosition.x

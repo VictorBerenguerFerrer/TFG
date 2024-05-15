@@ -7,3 +7,4 @@
 {"partido": "El ganador es el Equipo Azul, con un resultado de 1 a 3"}
 {"partido": "El ganador es el Equipo Rojo, con un resultado de 2 a 3"}
 {"partido": "El ganador es el Equipo Azul, con un resultado de 2 a 3"}
+{"partido": "El ganador es el Equipo Azul, con un resultado de 0 a 3"}

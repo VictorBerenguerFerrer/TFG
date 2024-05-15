@@ -381,7 +381,6 @@
 "Assets/Scripts/Contador.cs"
 "Assets/Scripts/ContadorLocal.cs"
 "Assets/Scripts/ControladorBots.cs"
-"Assets/Scripts/ControladorDatos.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Ganador.cs"
 "Assets/Scripts/Marcador.cs"
@@ -399,6 +398,7 @@
 "Assets/Scripts/Personaje7.cs"
 "Assets/Scripts/Porteria.cs"
 "Assets/Scripts/SkinsController.cs"
+"Assets/Scripts/Texto.cs"
 -langversion:9.0
 
 /deterministic

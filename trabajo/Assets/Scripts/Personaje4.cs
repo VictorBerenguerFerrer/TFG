@@ -30,7 +30,7 @@ private float idleVelocityThreshold = 0.05f;
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null && (hit.collider.CompareTag("jugador4")))
+            if (hit.collider != null && (hit.collider.CompareTag("jugador5")))
             {
                 isDragging = true;
                 dragStartPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

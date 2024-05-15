@@ -341,6 +341,7 @@
 "Assets/Scripts/Personaje7.cs"
 "Assets/Scripts/Porteria.cs"
 "Assets/Scripts/SkinsController.cs"
+"Assets/Scripts/Texto.cs"
 -langversion:9.0
 
 /deterministic

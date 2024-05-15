@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - PlayerController7
     - Porteria
     - SkinsController
+    - Texto
     - TuClase
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -225,17 +226,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 21134}
+      Script: {instanceID: 21136}
     - Class: 114
-      Script: {instanceID: 21468}
+      Script: {instanceID: 21470}
     - Class: 114
-      Script: {instanceID: 21842}
+      Script: {instanceID: 21844}
     - Class: 114
-      Script: {instanceID: 22056}
+      Script: {instanceID: 22058}
     - Class: 114
-      Script: {instanceID: 22462}
+      Script: {instanceID: 22464}
     - Class: 114
-      Script: {instanceID: 24688}
+      Script: {instanceID: 24690}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -296,25 +297,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19000}
     - Class: 114
-      Script: {instanceID: 19290}
+      Script: {instanceID: 19292}
     - Class: 114
-      Script: {instanceID: 19378}
+      Script: {instanceID: 19380}
     - Class: 114
-      Script: {instanceID: 20222}
+      Script: {instanceID: 20224}
     - Class: 114
-      Script: {instanceID: 21280}
+      Script: {instanceID: 21282}
     - Class: 114
-      Script: {instanceID: 21468}
+      Script: {instanceID: 21470}
     - Class: 114
-      Script: {instanceID: 21484}
+      Script: {instanceID: 21486}
     - Class: 114
-      Script: {instanceID: 21578}
+      Script: {instanceID: 21580}
     - Class: 114
-      Script: {instanceID: 21842}
+      Script: {instanceID: 21844}
     - Class: 114
-      Script: {instanceID: 22462}
+      Script: {instanceID: 22464}
     - Class: 114
-      Script: {instanceID: 23822}
+      Script: {instanceID: 23824}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -369,23 +370,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 19886}
+      Script: {instanceID: 19028}
     - Class: 114
-      Script: {instanceID: 20210}
+      Script: {instanceID: 19888}
     - Class: 114
-      Script: {instanceID: 21134}
+      Script: {instanceID: 20212}
     - Class: 114
-      Script: {instanceID: 21468}
+      Script: {instanceID: 21136}
     - Class: 114
-      Script: {instanceID: 21842}
+      Script: {instanceID: 21470}
     - Class: 114
-      Script: {instanceID: 22056}
+      Script: {instanceID: 21844}
     - Class: 114
-      Script: {instanceID: 22462}
+      Script: {instanceID: 22058}
     - Class: 114
-      Script: {instanceID: 23580}
+      Script: {instanceID: 22464}
     - Class: 114
-      Script: {instanceID: 25364}
+      Script: {instanceID: 23582}
+    - Class: 114
+      Script: {instanceID: 25398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -434,13 +437,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 21134}
+      Script: {instanceID: 21136}
     - Class: 114
-      Script: {instanceID: 21842}
+      Script: {instanceID: 21844}
     - Class: 114
-      Script: {instanceID: 22056}
+      Script: {instanceID: 22058}
     - Class: 114
-      Script: {instanceID: 22462}
+      Script: {instanceID: 22464}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -501,31 +504,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19000}
     - Class: 114
-      Script: {instanceID: 19122}
+      Script: {instanceID: 19124}
     - Class: 114
-      Script: {instanceID: 19290}
+      Script: {instanceID: 19292}
     - Class: 114
-      Script: {instanceID: 19378}
+      Script: {instanceID: 19380}
     - Class: 114
-      Script: {instanceID: 19966}
+      Script: {instanceID: 19968}
     - Class: 114
-      Script: {instanceID: 20130}
+      Script: {instanceID: 20132}
     - Class: 114
-      Script: {instanceID: 20222}
+      Script: {instanceID: 20224}
     - Class: 114
-      Script: {instanceID: 20576}
+      Script: {instanceID: 20578}
     - Class: 114
-      Script: {instanceID: 21190}
+      Script: {instanceID: 21192}
     - Class: 114
-      Script: {instanceID: 21468}
+      Script: {instanceID: 21470}
     - Class: 114
-      Script: {instanceID: 21484}
+      Script: {instanceID: 21486}
     - Class: 114
-      Script: {instanceID: 21842}
+      Script: {instanceID: 21844}
     - Class: 114
-      Script: {instanceID: 22462}
+      Script: {instanceID: 22464}
     - Class: 114
-      Script: {instanceID: 23822}
+      Script: {instanceID: 23824}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -574,15 +577,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 21134}
+      Script: {instanceID: 21136}
     - Class: 114
-      Script: {instanceID: 21842}
+      Script: {instanceID: 21844}
     - Class: 114
-      Script: {instanceID: 22056}
+      Script: {instanceID: 22058}
     - Class: 114
-      Script: {instanceID: 22462}
+      Script: {instanceID: 22464}
     - Class: 114
-      Script: {instanceID: 24164}
+      Script: {instanceID: 24166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -956,6 +959,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e16223e76d4e7ac70465394e6fdafd5d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TuClase
   - hash:
       serializedVersion: 2
       Hash: cf32d98954e63b8e30e9334b152e9b8e
@@ -1720,10 +1729,10 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e16223e76d4e7ac70465394e6fdafd5d
+      Hash: df280505a3f77857c188c169f7be8c4e
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: TuClase
+    className: Texto
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
@@ -1732,4 +1741,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Multijugador.unity
   - Assets/Scenes/Local.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/laura/OneDrive/Escritorio/test/test.apk
+  playerPath: C:/Users/laura/Downloads/test.apk
