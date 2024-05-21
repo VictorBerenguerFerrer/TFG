@@ -50,4 +50,15 @@ public class BOTONES : MonoBehaviour
 
         SceneManager.LoadScene(nombre); // Cambiar de escena después de la espera
     }
+
+    public void GoToPreviousScene()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int previousSceneIndex = currentSceneIndex - 1;
+
+        // Verifica que el índice de la escena anterior sea válido
+        
+            SceneManager.LoadScene(previousSceneIndex);
+        
+    }
 }

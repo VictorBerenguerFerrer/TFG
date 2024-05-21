@@ -323,7 +323,6 @@
 "Assets/Scripts/Contador.cs"
 "Assets/Scripts/ContadorLocal.cs"
 "Assets/Scripts/ControladorBots.cs"
-"Assets/Scripts/ControladorDatos.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Ganador.cs"
 "Assets/Scripts/Marcador.cs"

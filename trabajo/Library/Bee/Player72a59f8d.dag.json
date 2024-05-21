@@ -369,7 +369,17 @@
         361,
         362,
         363,
-        364
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -9328,7 +9338,7 @@
       "DisplayName": "Copying ic_launcher_background.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_background.png"
+        "Temp/StagingArea/res.mdpi.adaptive_icon-0.png"
       ],
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
@@ -9340,12 +9350,132 @@
       "DisplayName": "Copying ic_launcher_foreground.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "Temp/StagingArea/res.mdpi.adaptive_icon-1.png"
       ],
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
       "DebugActionIndex": 349
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 350
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 351
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 352
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 353
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 354
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 355
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 356
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 357
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 358
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 359
     },
     {
       "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -9357,7 +9487,7 @@
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 350
+      "DebugActionIndex": 360
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -9365,11 +9495,11 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        350,
-        352
+        360,
+        362
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 351
+      "DebugActionIndex": 361
     },
     {
       "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -9381,7 +9511,7 @@
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 352
+      "DebugActionIndex": 362
     },
     {
       "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -9393,7 +9523,7 @@
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 353
+      "DebugActionIndex": 363
     },
     {
       "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so",
@@ -9405,7 +9535,7 @@
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so"
       ],
-      "DebugActionIndex": 354
+      "DebugActionIndex": 364
     },
     {
       "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so",
@@ -9417,20 +9547,20 @@
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so"
       ],
-      "DebugActionIndex": 355
+      "DebugActionIndex": 365
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "DisplayName": "Writing LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 254319,
-      "PayloadLength": 21762,
+      "PayloadLength": 21761,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 356
+      "DebugActionIndex": 366
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -9668,12 +9798,12 @@
         324,
         326,
         328,
-        356
+        366
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 357
+      "DebugActionIndex": 367
     },
     {
       "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -9685,7 +9815,7 @@
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 358
+      "DebugActionIndex": 368
     },
     {
       "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -9697,7 +9827,7 @@
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 359
+      "DebugActionIndex": 369
     },
     {
       "Annotation": "CopyFiles C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -9709,20 +9839,20 @@
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 360
+      "DebugActionIndex": 370
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_959c.info",
       "DisplayName": "Writing unity_app_guid_959c.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 276173,
+      "PayloadOffset": 276172,
       "PayloadLength": 15638,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_959c.info"
       ],
-      "DebugActionIndex": 361
+      "DebugActionIndex": 371
     },
     {
       "Annotation": "GuidGenerator C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -9859,25 +9989,25 @@
       ],
       "ToBuildDependencies": [
         9,
-        361
+        371
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 362
+      "DebugActionIndex": 372
     },
     {
       "Annotation": "WriteText C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 292012,
+      "PayloadOffset": 292011,
       "PayloadLength": 66,
       "PayloadDebugContentSnippet": "2022.3.22f1;Mono;Release;Strip",
       "Inputs": [],
       "Outputs": [
         "C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 363
+      "DebugActionIndex": 373
     },
     {
       "Annotation": "Player",
@@ -10125,16 +10255,26 @@
         348,
         349,
         350,
+        351,
         352,
         353,
         354,
         355,
+        356,
         357,
+        358,
+        359,
+        360,
         362,
-        363
+        363,
+        364,
+        365,
+        367,
+        372,
+        373
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 364
+      "DebugActionIndex": 374
     }
   ],
   "FileSignatures": [
@@ -10449,8 +10589,8 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 351,
-          "Player": 364
+          "SourceBuildPlayerFiles": 361,
+          "Player": 374
         }
 ,  "DefaultNodes": [
     0
