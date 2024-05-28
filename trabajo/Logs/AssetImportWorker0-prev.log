@@ -15,7 +15,7 @@ C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65392
+59781
 Successfully changed project path to: C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo
 C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/laura/Downloads/TFG/GitHub/TFG/trabajo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3056] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1864045075 [EditorId] 1864045075 [Version] 1048832 [Id] WindowsEditor(7,LAURABF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7920] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 105793775 [EditorId] 105793775 [Version] 1048832 [Id] WindowsEditor(7,LAURABF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3056] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1864045075 [EditorId] 1864045075 [Version] 1048832 [Id] WindowsEditor(7,LAURABF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7920] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 105793775 [EditorId] 105793775 [Version] 1048832 [Id] WindowsEditor(7,LAURABF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 47.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 19.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,58 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.029500 seconds.
-- Loaded All Assemblies, in  0.941 seconds
+Registered in 0.010402 seconds.
+- Loaded All Assemblies, in  0.557 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 600 ms
-Native extension for WebGL target not found
+Unauthorized device detected, Id: 9887f7374351534134, please add debug authorization and reconnect.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+Android Extension - Scanning For ADB Devices 438 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.440 seconds
-Domain Reload Profiling: 2379ms
-	BeginReloadAssembly (274ms)
+- Finished resetting the current domain, in  1.009 seconds
+Domain Reload Profiling: 1563ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (162ms)
-	LoadAllAssembliesAndSetupDomain (400ms)
-		LoadAssemblies (272ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (164ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (392ms)
-			TypeCache.Refresh (389ms)
-				TypeCache.ScanAssembly (363ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1441ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (203ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1009ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1278ms)
+		SetupLoadedEditorAssemblies (906ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (885ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (636ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,57 +129,56 @@ Domain Reload Profiling: 2379ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.751 seconds
-Refreshing native plugins compatible for Editor in 3.87 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.774 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.722 seconds
-Domain Reload Profiling: 1469ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 1634ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (37ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (534ms)
-		LoadAssemblies (417ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (434ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (169ms)
-				TypeCache.ScanAssembly (147ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (19ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (722ms)
+	FinalizeReload (861ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (559ms)
+		SetupLoadedEditorAssemblies (634ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (393ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (432ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.13 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (244.7 KB). Loaded Objects now: 4530.
-Memory consumption went from 153.1 MB to 152.9 MB.
-Total: 5.172100 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.139500 ms MarkObjects: 4.289100 ms  DeleteObjects: 0.412700 ms)
+Unloading 3722 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (244.7 KB). Loaded Objects now: 4182.
+Memory consumption went from 146.4 MB to 146.2 MB.
+Total: 4.578900 ms (FindLiveObjects: 0.395600 ms CreateObjectMapping: 0.423200 ms MarkObjects: 3.531800 ms  DeleteObjects: 0.227200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,1108 +195,807 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 433492.264529 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Backward.png
-  artifactKey: Guid(c916bf149f09c459089a45701474d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Backward.png using Guid(c916bf149f09c459089a45701474d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882ea37589d5566b622bb72a211a32e4') in 0.093653 seconds
+  Time since last request: 447199.522753 seconds.
+  path: Assets/Scenes/Multijugador.unity
+  artifactKey: Guid(bb860f43df4436f459399c1d308d9655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Multijugador.unity using Guid(bb860f43df4436f459399c1d308d9655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47120cd22a5c488fb47af715eace5bb') in 0.002910 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Backward.png
-  artifactKey: Guid(64a5151e5a4ed4c8b9a85b7e853e6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Backward.png using Guid(64a5151e5a4ed4c8b9a85b7e853e6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf6693cc98cbb833a2ac916f8c9dec0') in 0.024914 seconds
+  Time since last request: 10.743258 seconds.
+  path: Assets/Scenes/Local.unity
+  artifactKey: Guid(0362083906aec3b40ae78dbd50f4d6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Local.unity using Guid(0362083906aec3b40ae78dbd50f4d6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbe94761914347d7ace26d0f199f72c') in 0.001710 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Backward.png
-  artifactKey: Guid(4f8c06a6606ba4691a8da5d0abe8332e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Backward.png using Guid(4f8c06a6606ba4691a8da5d0abe8332e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c32148bcf6f99dca3d0a7d3225c51d3') in 0.015679 seconds
+  Time since last request: 3.676701 seconds.
+  path: Assets/Scenes/Multijugador.unity
+  artifactKey: Guid(bb860f43df4436f459399c1d308d9655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Multijugador.unity using Guid(bb860f43df4436f459399c1d308d9655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059cf5dcffb0813493a5b2d67fb4e560') in 0.001393 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Cancel.png
-  artifactKey: Guid(1c8431185995a43f4a7544bcb872b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Cancel.png using Guid(1c8431185995a43f4a7544bcb872b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f211b02d86e17eeb23ea41060b65657') in 0.025378 seconds
+  Time since last request: 27.658546 seconds.
+  path: Assets/Personajes/Jugador1.prefab
+  artifactKey: Guid(9d0a22890cd2aaa479ca3a6af34646fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Jugador1.prefab using Guid(9d0a22890cd2aaa479ca3a6af34646fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fc3fb0a5015af3d981b6d65cae5aa1') in 0.074596 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Cancel.png
-  artifactKey: Guid(cff2074e06df54190876089e6dbf29d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Cancel.png using Guid(cff2074e06df54190876089e6dbf29d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258942da49f3e1b0717a11de872410bf') in 0.016733 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Personajes/Jugador2.prefab
+  artifactKey: Guid(a9bea7f008a271448a1498ce2b7821d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Jugador2.prefab using Guid(a9bea7f008a271448a1498ce2b7821d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b93af1bfe1fdbb13e24f1798944aadb') in 0.010176 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Backward.png
-  artifactKey: Guid(cdfc291ab2d1647e2b5ae4067e00d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Backward.png using Guid(cdfc291ab2d1647e2b5ae4067e00d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b263a73fe8cdbec018235114ccd46ed') in 0.016696 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 18.763764 seconds.
-  path: Assets/Scenes/logotipo aplicación.png
-  artifactKey: Guid(8b27d6fac70d3be4a939c45792aeb522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/logotipo aplicación.png using Guid(8b27d6fac70d3be4a939c45792aeb522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc44510253d050ffd34f78f444068579') in 0.043264 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 57.952984 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Cancel.png
-  artifactKey: Guid(19a991bbda38944fe9e46b17c9c7ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Cancel.png using Guid(19a991bbda38944fe9e46b17c9c7ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06ecfa46caf5eb389d3d03d49539863') in 0.038670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Cancel.png
-  artifactKey: Guid(a1189c50db75e4f4e9e3df411acfd7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Cancel.png using Guid(a1189c50db75e4f4e9e3df411acfd7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2821a891a16184a5f1ffc1495e6271') in 0.021621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/digital-7 (mono italic) SDF.asset
-  artifactKey: Guid(208cb3007d58f934cb2749daefb00701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/digital-7 (mono italic) SDF.asset using Guid(208cb3007d58f934cb2749daefb00701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b160866a37eeba2883c789616f95da') in 0.101385 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Dollar.png
-  artifactKey: Guid(59ec1a13a533548139b3cebe8ed491ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Dollar.png using Guid(59ec1a13a533548139b3cebe8ed491ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c894e5d49a484b3c79d5d79fe85dcfa') in 0.017883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Dollar.png
-  artifactKey: Guid(e94bcf476677c405883b8ae8701ab77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Dollar.png using Guid(e94bcf476677c405883b8ae8701ab77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2697f70ab53cdf65caa823307cb66e8') in 0.012671 seconds
+  path: Assets/Personajes/Jugador4.prefab
+  artifactKey: Guid(152bfc7f63c352f438cd54c51be52b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Jugador4.prefab using Guid(152bfc7f63c352f438cd54c51be52b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e682e6bb71654012f544ed0f4324025') in 0.011485 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/digital-7 SDF.asset
-  artifactKey: Guid(203c695c3c928eb44af4d87eb35223f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/digital-7 SDF.asset using Guid(203c695c3c928eb44af4d87eb35223f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b733a6b33fabcfd704519fcb48c648f') in 0.035535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/digital-7 (mono) SDF.asset
-  artifactKey: Guid(eb8a04b9673c81f408edf3736cb13f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/digital-7 (mono) SDF.asset using Guid(eb8a04b9673c81f408edf3736cb13f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff3df5e770a0a18ebabf03d0e19d6b6') in 0.048267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Dollar.png
-  artifactKey: Guid(cc52ac453e019400984c19bb920c9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Dollar.png using Guid(cc52ac453e019400984c19bb920c9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae6ca64f40940b888bd7d92865b3191') in 0.013612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Dollar.png
-  artifactKey: Guid(5e32ac25d1d1749bd8ad276098500aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Dollar.png using Guid(5e32ac25d1d1749bd8ad276098500aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e5b90b18d591aee6853bcc3dc538b3') in 0.017998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/DownArrow.png
-  artifactKey: Guid(7c34b0ecb12224eb88343135a587bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/DownArrow.png using Guid(7c34b0ecb12224eb88343135a587bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b43b142f83265ea96177dae1e4965ef') in 0.010660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/digital-7 (italic) SDF.asset
-  artifactKey: Guid(783138b478a86d74095b1bf9f2ce93a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/digital-7 (italic) SDF.asset using Guid(783138b478a86d74095b1bf9f2ce93a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5151494cfbc5f7b58ab5725b70781825') in 0.035822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 4.273241 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/DownArrow.png
-  artifactKey: Guid(4801c2af70dac4feebcefbb3e2f66fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/DownArrow.png using Guid(4801c2af70dac4feebcefbb3e2f66fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eeb6b5edc9afcd2e673e6f4d789ef7') in 0.023825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/DownArrow.png
-  artifactKey: Guid(d5b8393f09eb6470e905ec740629c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/DownArrow.png using Guid(d5b8393f09eb6470e905ec740629c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1139b1257b505d3a6fed6e48c15c6d1c') in 0.017033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/DownArrow.png
-  artifactKey: Guid(ca15e163733754df096397f031537b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/DownArrow.png using Guid(ca15e163733754df096397f031537b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b197deb78dc55d15c0099325a10b9032') in 0.010166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.055127 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Email.png
-  artifactKey: Guid(96f7c7fbe059d4ea8b8f3e34827a1e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Email.png using Guid(96f7c7fbe059d4ea8b8f3e34827a1e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed168595232e7a0e6db5d67a8659581') in 0.016939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Email.png
-  artifactKey: Guid(01c62efadfd454a479ee0bd73c4b2018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Email.png using Guid(01c62efadfd454a479ee0bd73c4b2018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662b27b875e804a591dfca0914be5243') in 0.019396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Email.png
-  artifactKey: Guid(feb0b2e65fe4948eaa2ebfc6c9dd2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Email.png using Guid(feb0b2e65fe4948eaa2ebfc6c9dd2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc9fff116603ae9b5e53bd7ee0e73d5') in 0.014110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0880e513a78e2ffa11d366ec4bf5a9') in 0.018822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Email.png
-  artifactKey: Guid(1157603c9e47a409b9a75b91ff561c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Email.png using Guid(1157603c9e47a409b9a75b91ff561c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1894b65800fa4539086dd67403ece3') in 0.016842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.858053 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Facebook.png
-  artifactKey: Guid(9a1a5c88aec014771a05272f2062e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Facebook.png using Guid(9a1a5c88aec014771a05272f2062e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe81f4f0515e3ead0b663eb73f9d0b7') in 0.036683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Facebook.png
-  artifactKey: Guid(f8fbcce33e10b4672b9cf19e5310a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Facebook.png using Guid(f8fbcce33e10b4672b9cf19e5310a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ab1096ef51554ff51e15ff0b8a95a5') in 0.019824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Facebook.png
-  artifactKey: Guid(777d63edabbf0469d8c7f88249361a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Facebook.png using Guid(777d63edabbf0469d8c7f88249361a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2703b02be432fe74ac2edb8241e1476f') in 0.011985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Facebook.png
-  artifactKey: Guid(6e750fd74c75647a6ad4084d7ca478ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Facebook.png using Guid(6e750fd74c75647a6ad4084d7ca478ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d5270a646a33055417dec8b849f44a') in 0.014590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.625296 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Forward.png
-  artifactKey: Guid(2cb44f2ba74d44feaa8292079e48c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Forward.png using Guid(2cb44f2ba74d44feaa8292079e48c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99942790b3b05a0e0cec15962b0e4936') in 0.021393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Forward.png
-  artifactKey: Guid(b4d4b6ba6b700437281965634850cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Forward.png using Guid(b4d4b6ba6b700437281965634850cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de088f24d389834ab697b5939da5a0e') in 0.014425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Forward.png
-  artifactKey: Guid(616e65414b8734419bc94481aa4f8be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Forward.png using Guid(616e65414b8734419bc94481aa4f8be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f9333727d185d980a2c12d7aa9b1a8') in 0.015333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.079790 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Forward.png
-  artifactKey: Guid(74532214feff94118a3eff4b6f865489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Forward.png using Guid(74532214feff94118a3eff4b6f865489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc9f413b0e3248b7860901d12d455bf') in 0.013610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001237 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/GameCenter.png
-  artifactKey: Guid(e8750dbfc75fb48f78495a60b50d42cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/GameCenter.png using Guid(e8750dbfc75fb48f78495a60b50d42cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1ab114b3196bb52b3c71278f2758cd') in 0.017341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/GameCenter.png
-  artifactKey: Guid(d7d1f598ffbd7431084c443549689ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/GameCenter.png using Guid(d7d1f598ffbd7431084c443549689ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4b17167d1359bd9506e1b586a02f9c') in 0.011275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Gamecenter.png
-  artifactKey: Guid(7eacd24ae468b4bc585c82d27ba7eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Gamecenter.png using Guid(7eacd24ae468b4bc585c82d27ba7eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b356c474e5a21b2dea6e8ed4f6917eca') in 0.016218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.984892 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Gamecenter.png
-  artifactKey: Guid(e854657a70607456195b05e45d4ed4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Gamecenter.png using Guid(e854657a70607456195b05e45d4ed4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59f5d8748e8fb8f0a0022c743a71bee') in 0.020091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/GooglePlus.png
-  artifactKey: Guid(dd4882e7a2d7440e59d7a8af06ea9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/GooglePlus.png using Guid(dd4882e7a2d7440e59d7a8af06ea9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bb7014febcdc212973201188e7ba4a') in 0.014356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/GooglePlus.png
-  artifactKey: Guid(f81d16fc976584825bd3c0de731a9bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/GooglePlus.png using Guid(f81d16fc976584825bd3c0de731a9bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c446ee06dcb5b221ede72104866d82aa') in 0.013545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.061849 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/GooglePlus.png
-  artifactKey: Guid(b6ac349d9494c4899bb71d2f222547eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/GooglePlus.png using Guid(b6ac349d9494c4899bb71d2f222547eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44da83cf181838cc7f06d3501305b6c7') in 0.014432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/GooglePlus.png
-  artifactKey: Guid(b05742cfb10a34ccb8bfd16f85676a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/GooglePlus.png using Guid(b05742cfb10a34ccb8bfd16f85676a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a25cd52050d34ec39e5beb402c2f8f') in 0.016634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Home.png
-  artifactKey: Guid(dc784d03a5bcb48e79ea5faa09963f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Home.png using Guid(dc784d03a5bcb48e79ea5faa09963f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe6c53dcbc884d56dbc44b9072ed72e') in 0.011063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.053795 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Home.png
-  artifactKey: Guid(f7b138e135c0a45f18d51a95098940e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Home.png using Guid(f7b138e135c0a45f18d51a95098940e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bede51945577fdd59442e825740f8b') in 0.015373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Home.png
-  artifactKey: Guid(ca0a2ab339ca748a1981966c17c1829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Home.png using Guid(ca0a2ab339ca748a1981966c17c1829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972a8f275ab7369df6032f49872a830') in 0.016404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Home.png
-  artifactKey: Guid(fa2020b0e49b040ecb52762bcefdd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Home.png using Guid(fa2020b0e49b040ecb52762bcefdd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd53e9add28b22e998fbd5df3b50b9fb') in 0.011733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.052104 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Info.png
-  artifactKey: Guid(b7ceebf6d34824b7f844e3bbd52315d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Info.png using Guid(b7ceebf6d34824b7f844e3bbd52315d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09785dad9542ff3c1155b0aa7e362484') in 0.019285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Info.png
-  artifactKey: Guid(8c0ed55b3632045a293808cf3776c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Info.png using Guid(8c0ed55b3632045a293808cf3776c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d26595f493f410ac697f5c3888c4ba') in 0.018576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Info.png
-  artifactKey: Guid(e2f97d3975aca4a5f975ded803cdc06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Info.png using Guid(e2f97d3975aca4a5f975ded803cdc06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbe9ef9644bf39e3bb5109f66b41b25') in 0.009449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.292421 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Info.png
-  artifactKey: Guid(f93edb3ee7d134cca84bf9788ebc2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Info.png using Guid(f93edb3ee7d134cca84bf9788ebc2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cae030546e9bfbb1d3140474557cdf8') in 0.023390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.434656 seconds.
-  path: Assets/Fonts/UIsprite/JazzCreateFontUI1024x512.png
-  artifactKey: Guid(d61d12d2d79f7244e9f4de798743e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/UIsprite/JazzCreateFontUI1024x512.png using Guid(d61d12d2d79f7244e9f4de798743e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039d7c0695308ec2b5a5367c87ea462c') in 0.040336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow.png
-  artifactKey: Guid(f2c06d80ab9bd4de2ae0a7876f25299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow.png using Guid(f2c06d80ab9bd4de2ae0a7876f25299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d8ce2fd5d7868b7097f4ce1791101c') in 0.015236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/Sprites/LazyDayBG-resized.png
-  artifactKey: Guid(e172132fe1d2244be9ab527153041e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/Sprites/LazyDayBG-resized.png using Guid(e172132fe1d2244be9ab527153041e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a30b1f2e27cdc3bdb48622c25af7604') in 0.020589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LAUGHTER SDF 1.asset
-  artifactKey: Guid(a22915355b543684686498378fdb661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LAUGHTER SDF 1.asset using Guid(a22915355b543684686498378fdb661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b5b4790cfe292f4dff037b5661f3ce') in 0.033430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow2.png
-  artifactKey: Guid(0808619d4e2144e2aa965a8768addde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow2.png using Guid(0808619d4e2144e2aa965a8768addde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8580af6b59adb1bc48858bba9d41a694') in 0.014682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow.png
-  artifactKey: Guid(c0c6d013c6a5040b08fe99535fddb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow.png using Guid(c0c6d013c6a5040b08fe99535fddb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ea303244961775b36cb1b3797ad095') in 0.015313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/LeftArrow2.png
-  artifactKey: Guid(8e30869e26f224b6caa46e456e90f026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/LeftArrow2.png using Guid(8e30869e26f224b6caa46e456e90f026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d7110bf8a2deccb2f111973e8ae017') in 0.023630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow.png
-  artifactKey: Guid(ce35983827a13452393a9e18298f9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow.png using Guid(ce35983827a13452393a9e18298f9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abc39334f582e361b391e0227f37150') in 0.015198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/LeftArrow.png
-  artifactKey: Guid(685c0b57f7e5c4add84859bb4ef8b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/LeftArrow.png using Guid(685c0b57f7e5c4add84859bb4ef8b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a0a386ed1ee9d9421f6bf32ecfe3a') in 0.012201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow2.png
-  artifactKey: Guid(2967f194254044f96abcd9634aaae57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow2.png using Guid(2967f194254044f96abcd9634aaae57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ccb76237a250f7e0a404c34797c021') in 0.011534 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LAUGHTER SDF.asset
-  artifactKey: Guid(ce98050758f4cd045bb7339815a27e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LAUGHTER SDF.asset using Guid(ce98050758f4cd045bb7339815a27e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b4f582e8b8abde69aa1261c98e3d2a') in 0.035935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.138250 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow2.png
-  artifactKey: Guid(5cf7cc585e72f4a4f9589d76a3a891f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow2.png using Guid(5cf7cc585e72f4a4f9589d76a3a891f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480378c9c7b5a477b4805593564cf796') in 0.036735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9eede44cfb872f51eba1d3f65bf70d') in 0.095273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Menu.png
-  artifactKey: Guid(5607024d493b549c69e86596366a7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Menu.png using Guid(5607024d493b549c69e86596366a7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148ef5f6c0ec2e2441af6972e74f791b') in 0.022578 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Menu.png
-  artifactKey: Guid(b3e86ce34507f4309b0dba14987a34d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Menu.png using Guid(b3e86ce34507f4309b0dba14987a34d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7aea258965205f47b674d4dbbe941b5') in 0.014160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.009369 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Menu.png
-  artifactKey: Guid(18937ce52bb4c4ba8adefb39eebdbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Menu.png using Guid(18937ce52bb4c4ba8adefb39eebdbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e4a2f4c5ee4e6106d1f003f8198600') in 0.018094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Menu.png
-  artifactKey: Guid(21a4f3d60a402429ebe35a661aa8a158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Menu.png using Guid(21a4f3d60a402429ebe35a661aa8a158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45fb056f597478e2853efcc5a650d0e') in 0.017549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Minus.png
-  artifactKey: Guid(7b3ddb33100024118b0f6b51cbb6e7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Minus.png using Guid(7b3ddb33100024118b0f6b51cbb6e7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027ad3b1d56a136b9e34a6a9408ca16e') in 0.012919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.278857 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Minus.png
-  artifactKey: Guid(cdb25197b31d744fa9eba9d2a90e560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Minus.png using Guid(cdb25197b31d744fa9eba9d2a90e560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131333bf1710cac7ca137373996c2e8e') in 0.017288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Minus.png
-  artifactKey: Guid(9c29adab143964e72ac9925bed125d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Minus.png using Guid(9c29adab143964e72ac9925bed125d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e80d14cd7d65f3b51baa88afd79d9b1') in 0.017475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Minus.png
-  artifactKey: Guid(f13dc8a456a284e7b8a7489bb427798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Minus.png using Guid(f13dc8a456a284e7b8a7489bb427798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef339cae222acff6c095a2b9874e8b5a') in 0.009638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.950032 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Pause.png
-  artifactKey: Guid(4d901cadb1574446ea83838465c11d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Pause.png using Guid(4d901cadb1574446ea83838465c11d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053f27b4a064bb9c2c0f1817280e0c44') in 0.025485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.264426 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Pause.png
-  artifactKey: Guid(ff8821736c16349d4b3c8dc2f5ccedcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Pause.png using Guid(ff8821736c16349d4b3c8dc2f5ccedcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43aaf8a0e66180fff4e1505e19e4d598') in 0.029625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Pause.png
-  artifactKey: Guid(ff645a4c999a14801b1a714a2087338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Pause.png using Guid(ff645a4c999a14801b1a714a2087338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8df2f902af67322ed8e8539d43337b') in 0.017683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Pause.png
-  artifactKey: Guid(f06723030ef874765a5e4ed1908b0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Pause.png using Guid(f06723030ef874765a5e4ed1908b0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d6374d18ed9d5fdb0bcafbbeefcf6a') in 0.013103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.256395 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Play.png
-  artifactKey: Guid(2f5f88874246f4ebbaca620f3cd37fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Play.png using Guid(2f5f88874246f4ebbaca620f3cd37fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d5c4ff58146f6d9af833cc74046c99') in 0.021115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Play.png
-  artifactKey: Guid(ce857edf439f7445da139f48a7f3dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Play.png using Guid(ce857edf439f7445da139f48a7f3dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cfecaf743de6327b7aa2e1ac39f811') in 0.017457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.199966 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Play.png
-  artifactKey: Guid(fc3341b3f1dac464baa311991f5499e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Play.png using Guid(fc3341b3f1dac464baa311991f5499e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c5e097073783775f92840cc0003c6e') in 0.020206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game GUI Vol1/Playful/Sprites/PlayfulBG-resized.png
-  artifactKey: Guid(f2b033edcedaf437184c1c4cca7524a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/Sprites/PlayfulBG-resized.png using Guid(f2b033edcedaf437184c1c4cca7524a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f47c0ffc35b0baefadeb1dc9b55e2d') in 0.017943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Play.png
-  artifactKey: Guid(6bb92db56863a49bf9fc5e992e334d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Play.png using Guid(6bb92db56863a49bf9fc5e992e334d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a517481faee396ad8015e3fe8d37edd4') in 0.013799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.051316 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Plus.png
-  artifactKey: Guid(95f2deec6adc349d593041107b4f54dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Plus.png using Guid(95f2deec6adc349d593041107b4f54dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b90a114dcb22f659351853b8b17306f') in 0.014888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Plus.png
-  artifactKey: Guid(c8d539ab64074495eb2513d09bf5b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Plus.png using Guid(c8d539ab64074495eb2513d09bf5b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4007c009d1a1c2c99fa77b97ee46a7') in 0.028276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Plus.png
-  artifactKey: Guid(0499308dc31514bf1be3189c00dd0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Plus.png using Guid(0499308dc31514bf1be3189c00dd0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6063df9c0650c6b6133b0d03ca5adf6') in 0.014663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.044077 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Plus.png
-  artifactKey: Guid(260b840a241de49ca868affd25c01999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Plus.png using Guid(260b840a241de49ca868affd25c01999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5cf71dbaf9afa534be1b258bd423e3') in 0.019301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.458746 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/Sprites/PurpleRockBG-resized.png
-  artifactKey: Guid(3fb580970ae8c48e7befdc608b11eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/Sprites/PurpleRockBG-resized.png using Guid(3fb580970ae8c48e7befdc608b11eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e6c8ab9b450bb2fc2d85ba351161dc') in 0.032726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/QuestionMark.png
-  artifactKey: Guid(30f5dccc2573c4d85a74ad0aa5c40f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/QuestionMark.png using Guid(30f5dccc2573c4d85a74ad0aa5c40f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db244c902c6a0341738d3574ab528aa9') in 0.018686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/QuestionMark.png
-  artifactKey: Guid(c80083ffcc8ea4523bd1a19b87fa03f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/QuestionMark.png using Guid(c80083ffcc8ea4523bd1a19b87fa03f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bece91d686b581bb4af074ad952832') in 0.011842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.154244 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/QuestionMark.png
-  artifactKey: Guid(4897c39ed1db34fcc81eca6e13612f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/QuestionMark.png using Guid(4897c39ed1db34fcc81eca6e13612f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e38ae1c44b2f5c447c5e7f1588bf8d') in 0.025833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Restart.png
-  artifactKey: Guid(5571f1c6de6ec43b682999ea5905a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Restart.png using Guid(5571f1c6de6ec43b682999ea5905a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa069cbc8d806ec6326064fe1e423d3') in 0.017787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/QuestionMark.png
-  artifactKey: Guid(64f0a7f4e869e4a4bb5359134071e196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/QuestionMark.png using Guid(64f0a7f4e869e4a4bb5359134071e196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e84a57015a6ed1b8c03199c682a1d6') in 0.010196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.089501 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Restart.png
-  artifactKey: Guid(f411799d2db434ea7a9cad5c2cbb23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Restart.png using Guid(f411799d2db434ea7a9cad5c2cbb23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce7448071395d293619ca577c355ff4') in 0.038796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Restart.png
-  artifactKey: Guid(111d4f982ceb3429b821a87e5f3cc18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Restart.png using Guid(111d4f982ceb3429b821a87e5f3cc18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62206bde5c192fe00483c1736b840e02') in 0.019246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Restart.png
-  artifactKey: Guid(59e899b457bb24211ba8899f1a5d1d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Restart.png using Guid(59e899b457bb24211ba8899f1a5d1d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e8e6d1298764041b3c6b1b93cf5b3b') in 0.010569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.055293 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/RightArrow.png
-  artifactKey: Guid(37f6c6fb321ad4710954e2eaa3d57791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/RightArrow.png using Guid(37f6c6fb321ad4710954e2eaa3d57791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3d4ee98056f4535daea3b760760b35') in 0.014125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow.png
-  artifactKey: Guid(77078911f297f4bd5a569ec4570fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow.png using Guid(77078911f297f4bd5a569ec4570fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e32a3a73924efa44c4860f692e57851') in 0.014936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow.png
-  artifactKey: Guid(29511ee6c48ef4fe7ad496aba8b4036e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow.png using Guid(29511ee6c48ef4fe7ad496aba8b4036e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58832317c36d44965b7914f3a43fb3e8') in 0.011198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.302363 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/RightArrow.png
-  artifactKey: Guid(5e6fc93512f454c59be69ecc14788186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/RightArrow.png using Guid(5e6fc93512f454c59be69ecc14788186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6701d0f0da5e84598f6c3b2a8896f010') in 0.031854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/RightArrow2.png
-  artifactKey: Guid(6f83ff1cec9b44582825b4e3893abc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/RightArrow2.png using Guid(6f83ff1cec9b44582825b4e3893abc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c11d5a5d43a0d9a268828cf33b50809') in 0.019155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/RightArrow2.png
-  artifactKey: Guid(158d9e70551a94b70b0ef8b0ff7e3183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/RightArrow2.png using Guid(158d9e70551a94b70b0ef8b0ff7e3183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e142129a2b29e1fb0dd5c868227f44f') in 0.011085 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.251879 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow2.png
-  artifactKey: Guid(306b16567939347c78cf9ab470a783ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow2.png using Guid(306b16567939347c78cf9ab470a783ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f521eea27c4000159da087976f1867e4') in 0.031543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow2.png
-  artifactKey: Guid(7a9bf3ca46891465fb5d44d7ce02e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow2.png using Guid(7a9bf3ca46891465fb5d44d7ce02e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f859497b60b727b2d7ea868b6769995e') in 0.016333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.067635 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Setting.png
-  artifactKey: Guid(be8cca1b5f8a141d5a739368332d1278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Setting.png using Guid(be8cca1b5f8a141d5a739368332d1278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180613832a6196f7cb536533426e7876') in 0.017063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Settings.png
-  artifactKey: Guid(2404a35a318704f1583a4173e501e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Settings.png using Guid(2404a35a318704f1583a4173e501e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190d9b316827d4a30beb0616b6838cb0') in 0.015510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.061644 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Settings.png
-  artifactKey: Guid(25c2d239600db471aabc8ffa640bc0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Settings.png using Guid(25c2d239600db471aabc8ffa640bc0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcdb145338a42916c5444965afca0ff') in 0.014132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Shop.png
-  artifactKey: Guid(1402e28f6b5254db2a8c7e8a008025c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Shop.png using Guid(1402e28f6b5254db2a8c7e8a008025c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067c25f1ceab813e62f52f143d099aca') in 0.018878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Settings.png
-  artifactKey: Guid(b19489b3ffbd6417989ea6d8d96437e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Settings.png using Guid(b19489b3ffbd6417989ea6d8d96437e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2727141b22cb9b4b88f325ae03a1632a') in 0.015931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.042288 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Shop.png
-  artifactKey: Guid(d7dc60134e8aa4c7cb98c0c2c539e948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Shop.png using Guid(d7dc60134e8aa4c7cb98c0c2c539e948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dc7da73476581fc38b4c7141ce67f0') in 0.016404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Shop.png
-  artifactKey: Guid(36abed496fd744f97a71c25c6cd31f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Shop.png using Guid(36abed496fd744f97a71c25c6cd31f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b468769d72376cfd6233a6f76f218cc') in 0.017323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Shop.png
-  artifactKey: Guid(2bd72e24f280d472db2eeda221ac6b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Shop.png using Guid(2bd72e24f280d472db2eeda221ac6b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfde3c199aaaa5fe083e7df05e71091') in 0.010074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.277624 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/SoundOFF.png
-  artifactKey: Guid(f4877361b6507457d80b5102839b4cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/SoundOFF.png using Guid(f4877361b6507457d80b5102839b4cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088112255f72f695fc5e0e9c01445ec0') in 0.029927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundOFF.png
-  artifactKey: Guid(c66941a5047f24dadb66035a5ed07773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundOFF.png using Guid(c66941a5047f24dadb66035a5ed07773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb0e31e34c51f6685839402c201afac') in 0.015890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/SoundOFF.png
-  artifactKey: Guid(09868a2567e8e495c84e92bfe43dbed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/SoundOFF.png using Guid(09868a2567e8e495c84e92bfe43dbed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b83e84831b056eca78234d288dff11') in 0.010032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.153354 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/SoundOFF.png
-  artifactKey: Guid(a7e1e81117197488db394021a1b04920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/SoundOFF.png using Guid(a7e1e81117197488db394021a1b04920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b03b167a5ebacf7532e4725394f42e') in 0.018662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/SoundON.png
-  artifactKey: Guid(38ec0776fb6b2455a9d6166b4814d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/SoundON.png using Guid(38ec0776fb6b2455a9d6166b4814d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c166c52d8f0f836199afd25c9f8c3cc') in 0.017391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/SoundON.png
-  artifactKey: Guid(aebe8973df4444fb096d979f24b536bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/SoundON.png using Guid(aebe8973df4444fb096d979f24b536bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00235db4ec877763417f2164035470d') in 0.015517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.055206 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/SoundON.png
-  artifactKey: Guid(493fd7d0e626d4db091f50928058f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/SoundON.png using Guid(493fd7d0e626d4db091f50928058f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0d814046536fa548cafe05eff537a1') in 0.015766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundON.png
-  artifactKey: Guid(1f146482e13454138889e7b21267f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundON.png using Guid(1f146482e13454138889e7b21267f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174d8f2b9b4f2415b25da0a08f0482d7') in 0.016007 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Star.png
-  artifactKey: Guid(e1e3e64dac28149d1bf7e15801897c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Star.png using Guid(e1e3e64dac28149d1bf7e15801897c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d4ac31b6d683eb54adb529a7c557a0') in 0.010816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.058424 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Star.png
-  artifactKey: Guid(198d72b902f744f1782e556c1aaced54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Star.png using Guid(198d72b902f744f1782e556c1aaced54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8070465a251c6db043b39267c21479') in 0.018133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Star.png
-  artifactKey: Guid(48ef7593f17504acea11af90fd3e4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Star.png using Guid(48ef7593f17504acea11af90fd3e4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e211f0ef740b14e2d86e4c8582139e2') in 0.019588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Star.png
-  artifactKey: Guid(0fd1070f9532941f6a6fdf5719a3fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Star.png using Guid(0fd1070f9532941f6a6fdf5719a3fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dd085d2bf03ddad819ac78346b901e') in 0.011901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.055712 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Trophy.png
-  artifactKey: Guid(368f6f2553af84f4fb74cea5340541ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Trophy.png using Guid(368f6f2553af84f4fb74cea5340541ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3963fa49d10b196a22c383ad8774f1') in 0.023392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.075753 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Trophy.png
-  artifactKey: Guid(0589d3eb4e6ef4d269663222f1a92efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Trophy.png using Guid(0589d3eb4e6ef4d269663222f1a92efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1325ec5f71955630d6dceed7f444c8b0') in 0.030519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Trophy.png
-  artifactKey: Guid(186dfa9d9d421454d9da3d5f547f3126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Trophy.png using Guid(186dfa9d9d421454d9da3d5f547f3126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62594c56b4c8a1946289bb211e70c18') in 0.019734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Trophy.png
-  artifactKey: Guid(6da6a02d4b7c14e9b97f5be021635cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Trophy.png using Guid(6da6a02d4b7c14e9b97f5be021635cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba888d81e22c3af3374b993dadb591f') in 0.011937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.322878 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Twitter.png
-  artifactKey: Guid(93a69ad77ea914e33bf489705120f1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Twitter.png using Guid(93a69ad77ea914e33bf489705120f1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b8a2c158885c4604e8a6a510e30a56') in 0.027086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Twitter.png
-  artifactKey: Guid(6dc0c810562fd40d480bb4a2b0e2c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Twitter.png using Guid(6dc0c810562fd40d480bb4a2b0e2c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6356df4dd0643c8052570f9fec1dafe6') in 0.019114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.159933 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/Twitter.png
-  artifactKey: Guid(d6c546384b9de45718bfa37ad8251d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/Twitter.png using Guid(d6c546384b9de45718bfa37ad8251d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b663a442a4b8990760f015c543bde8f') in 0.022260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Twitter.png
-  artifactKey: Guid(7010a400a94bc4ca098a158cd29f6669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Twitter.png using Guid(7010a400a94bc4ca098a158cd29f6669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09310465e37121a626a953b5e2676dcf') in 0.017717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.066907 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/UpArrow.png
-  artifactKey: Guid(9d38a27b414cd4aa8a1b03f38b9ddcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/UpArrow.png using Guid(9d38a27b414cd4aa8a1b03f38b9ddcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0e1e66626e5be82d3ad5dd2b8d0ec1') in 0.017346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/UpArrow.png
-  artifactKey: Guid(bf4f8c4ec9d894084a787e5999d407a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/UpArrow.png using Guid(bf4f8c4ec9d894084a787e5999d407a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e7547b04580e0eb449d55bd7a8b063') in 0.016918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/UpArrow.png
-  artifactKey: Guid(067be74ecf0444595a2a4825969316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/UpArrow.png using Guid(067be74ecf0444595a2a4825969316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06095f5618ebfdb5618b474fdeb4532b') in 0.009772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.069973 seconds.
-  path: Assets/Game GUI Vol1/LazyDay/PNG/UpArrow.png
-  artifactKey: Guid(3629ce294ae2640b6a8137de2adde913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/LazyDay/PNG/UpArrow.png using Guid(3629ce294ae2640b6a8137de2adde913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3918975c29e4b25a1cf6f8918e0076b0') in 0.018905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/Sprites/WoodenBG-resized.png
-  artifactKey: Guid(278249b5f3eca4d38be55ca9a2a87e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/Sprites/WoodenBG-resized.png using Guid(278249b5f3eca4d38be55ca9a2a87e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f26bfdcfffbe4f74aefbe4eeb32cbc') in 0.016728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.172134 seconds.
-  path: Assets/Game GUI Vol1/PurpleRock/PNG/Yes.png
-  artifactKey: Guid(6ed18601f275b4f8fa32d21d0f35343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Yes.png using Guid(6ed18601f275b4f8fa32d21d0f35343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7f17327cc7bdf8fe0f81caed3f2030') in 0.032993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Yes.png
-  artifactKey: Guid(9a448cbb837364621a5bbd09082913a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Yes.png using Guid(9a448cbb837364621a5bbd09082913a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e1f81c0fbea0408ebe6675d193a591') in 0.017708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game GUI Vol1/Playful/PNG/Yes.png
-  artifactKey: Guid(3450eb53f02974cc38c1ef039141f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game GUI Vol1/Playful/PNG/Yes.png using Guid(3450eb53f02974cc38c1ef039141f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602db770f7923b4e110c1c138bad4ef6') in 0.022364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+  path: Assets/Personajes/Jugador3.prefab
+  artifactKey: Guid(98da6221d36927145bf6f02988a42f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Jugador3.prefab using Guid(98da6221d36927145bf6f02988a42f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba680ec5e3a0622d1b9bc9a49f57fd') in 0.017080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 17.45 ms, found 4 plugins.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.555 seconds
+Domain Reload Profiling: 3113ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2557ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (864ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 10.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7 unused Assets / (195.8 KB). Loaded Objects now: 4587.
-Memory consumption went from 86.8 MB to 86.6 MB.
-Total: 4.721400 ms (FindLiveObjects: 0.380600 ms CreateObjectMapping: 0.219800 ms MarkObjects: 3.721000 ms  DeleteObjects: 0.397400 ms)
+Unloading 3701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4194.
+Memory consumption went from 142.9 MB to 142.7 MB.
+Total: 12.032100 ms (FindLiveObjects: 0.653800 ms CreateObjectMapping: 1.256600 ms MarkObjects: 7.962000 ms  DeleteObjects: 2.156100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.696 seconds
+Refreshing native plugins compatible for Editor in 4.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.114 seconds
+Domain Reload Profiling: 2807ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (448ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2114ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (573ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 25.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3703 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4199.
+Memory consumption went from 145.1 MB to 144.9 MB.
+Total: 8.562800 ms (FindLiveObjects: 0.903800 ms CreateObjectMapping: 0.334700 ms MarkObjects: 6.801500 ms  DeleteObjects: 0.520400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1190.999679 seconds.
+  path: Assets/PermissionManager.cs
+  artifactKey: Guid(bdb4e8cab018c704aa6b1c4870834568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PermissionManager.cs using Guid(bdb4e8cab018c704aa6b1c4870834568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f874bca25b0675c54683f35fc90b55') in 0.742355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.867 seconds
+Refreshing native plugins compatible for Editor in 8.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.018 seconds
+Domain Reload Profiling: 3883ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (541ms)
+		LoadAssemblies (611ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3019ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (44ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (264ms)
+			ProcessInitializeOnLoadAttributes (743ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 9.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4203.
+Memory consumption went from 146.8 MB to 146.6 MB.
+Total: 5.203100 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.298300 ms MarkObjects: 4.133100 ms  DeleteObjects: 0.396300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.543276 seconds.
+  path: Assets/Scripts/PermissionManager.cs
+  artifactKey: Guid(bdb4e8cab018c704aa6b1c4870834568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PermissionManager.cs using Guid(bdb4e8cab018c704aa6b1c4870834568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7186f4bad798e6e94586fc0c0daca21') in 0.004523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 139.819066 seconds.
+  path: Assets/Scripts/PermissionManager.cs
+  artifactKey: Guid(bdb4e8cab018c704aa6b1c4870834568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PermissionManager.cs using Guid(bdb4e8cab018c704aa6b1c4870834568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b3bd87bd76ae65e833f602328ab2c6') in 0.005073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.697336 seconds.
+  path: Assets/Scripts/MatchBoard.cs
+  artifactKey: Guid(6f45f3bc7ac76a444bb36b87ea794a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MatchBoard.cs using Guid(6f45f3bc7ac76a444bb36b87ea794a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fade94e614c762a3d7d4e84dd2d27ef') in 0.002155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.628183 seconds.
+  path: Assets/Scripts/DataManager.cs
+  artifactKey: Guid(bcc9579df8f43e648aecc8b112c61082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataManager.cs using Guid(bcc9579df8f43e648aecc8b112c61082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae30fe87f93c0acfc149ad5eaa408cf6') in 0.001738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.853 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.650 seconds
+Domain Reload Profiling: 2502ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (601ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1651ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (513ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (217.2 KB). Loaded Objects now: 4207.
+Memory consumption went from 148.8 MB to 148.6 MB.
+Total: 3.492700 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.122100 ms MarkObjects: 2.859900 ms  DeleteObjects: 0.204600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+Refreshing native plugins compatible for Editor in 5.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.519 seconds
+Domain Reload Profiling: 2191ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (437ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1520ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4212.
+Memory consumption went from 151.0 MB to 150.7 MB.
+Total: 3.007100 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.095700 ms MarkObjects: 2.507700 ms  DeleteObjects: 0.170700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.794 seconds
+Refreshing native plugins compatible for Editor in 5.76 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.765 seconds
+Domain Reload Profiling: 2556ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (509ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1766ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 7.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4216.
+Memory consumption went from 152.9 MB to 152.7 MB.
+Total: 4.281000 ms (FindLiveObjects: 0.278700 ms CreateObjectMapping: 0.112300 ms MarkObjects: 3.676400 ms  DeleteObjects: 0.212200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 199.009787 seconds.
+  path: Assets/PermissionManager.cs
+  artifactKey: Guid(5da8317eaa32fb541907f11b6fd5fef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PermissionManager.cs using Guid(5da8317eaa32fb541907f11b6fd5fef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348f873bbb273c383629db2955e5fc8b') in 0.003407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.317721 seconds.
+  path: Assets/Scripts/PermissionsManager.cs
+  artifactKey: Guid(163df76d0be264848852b7785a8498ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PermissionsManager.cs using Guid(163df76d0be264848852b7785a8498ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81872d6d85106d1b21eb8a861e4c5983') in 0.000689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.049 seconds
+Refreshing native plugins compatible for Editor in 7.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.576 seconds
+Domain Reload Profiling: 3623ms
+	BeginReloadAssembly (285ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (632ms)
+		LoadAssemblies (748ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (974ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 8.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (217.4 KB). Loaded Objects now: 4219.
+Memory consumption went from 154.5 MB to 154.3 MB.
+Total: 8.911100 ms (FindLiveObjects: 0.895400 ms CreateObjectMapping: 0.245400 ms MarkObjects: 7.490500 ms  DeleteObjects: 0.278200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.790 seconds
+Refreshing native plugins compatible for Editor in 6.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.212 seconds
+Domain Reload Profiling: 1999ms
+	BeginReloadAssembly (344ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1212ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3703 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.7 KB). Loaded Objects now: 4223.
+Memory consumption went from 156.7 MB to 156.5 MB.
+Total: 2.903900 ms (FindLiveObjects: 0.225800 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.420800 ms  DeleteObjects: 0.159700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 6.22 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.076 seconds
+Domain Reload Profiling: 5762ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (430ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (62ms)
+			TypeCache.Refresh (47ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (5077ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2749ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (94ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (360ms)
+			ProcessInitializeOnLoadAttributes (2071ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (108ms)
+Refreshing native plugins compatible for Editor in 10.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3703 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4227.
+Memory consumption went from 158.7 MB to 158.4 MB.
+Total: 2.884200 ms (FindLiveObjects: 0.408200 ms CreateObjectMapping: 0.143600 ms MarkObjects: 2.152900 ms  DeleteObjects: 0.177900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (197.8 KB). Loaded Objects now: 4227.
+Memory consumption went from 102.0 MB to 101.8 MB.
+Total: 3.504500 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.950500 ms  DeleteObjects: 0.164400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.201 seconds
+Refreshing native plugins compatible for Editor in 11.86 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.357 seconds
+Domain Reload Profiling: 6560ms
+	BeginReloadAssembly (480ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (84ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (136ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (1609ms)
+		LoadAssemblies (1760ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (4358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (255ms)
+			ProcessInitializeOnLoadAttributes (889ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3703 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.7 KB). Loaded Objects now: 4231.
+Memory consumption went from 160.6 MB to 160.4 MB.
+Total: 5.375500 ms (FindLiveObjects: 0.338700 ms CreateObjectMapping: 0.278200 ms MarkObjects: 4.552300 ms  DeleteObjects: 0.205000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 49.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (198.1 KB). Loaded Objects now: 4231.
+Memory consumption went from 104.0 MB to 103.8 MB.
+Total: 7.407900 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.236000 ms MarkObjects: 6.420600 ms  DeleteObjects: 0.382000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
